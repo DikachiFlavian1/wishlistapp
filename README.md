@@ -1,6 +1,22 @@
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# you can clone the app and redirect to the front end by cd to wishlistapp
+then run npm i
+this is all you need to do the front end to effectively run.
+the go ahead and run the app by nunning "npm  start"
+
+#for the backend 
+cd into wishlistapp and then into wishlistbackend 
+run npm i to install the packages,
+and then run npm start. 
+# before then make sure you have already created your table in your postgres sql database,
+# and provided the required credential to the .env file.
+ you can find the guideline on creating the sql database and .env file in the wislistbackend repo 
+
 
 ## Available Scripts
 

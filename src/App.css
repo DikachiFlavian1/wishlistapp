@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.wishlist-input {
+  margin-bottom: 20px;
+}
+
+.wishlist-input input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.wishlist-input button {
+  padding: 10px 20px;
+}
+
+.wishlists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wishlist-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.wishlist-item button {
+  margin-left: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
